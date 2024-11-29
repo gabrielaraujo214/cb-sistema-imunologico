@@ -1,9 +1,9 @@
 package com.example;
 
-import java.util.ArrayList; // Import the ArrayList class
+import java.util.ArrayList;
 
 class Antigeno {
-    private ArrayList<Integer> umAntigeno; // Use generics to specify the type
+    private ArrayList<Integer> umAntigeno;
 
     public Antigeno() {
         umAntigeno = new ArrayList<>(121);
@@ -50,7 +50,6 @@ class Antigeno {
         return ret;
     }
 
-    // Getters and setters
     public ArrayList<Integer> getUmAntigeno() {
         return umAntigeno;
     }
