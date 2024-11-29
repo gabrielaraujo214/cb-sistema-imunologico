@@ -3,10 +3,10 @@ package com.example;
 import java.util.ArrayList;
 
 class Antigeno {
-    private ArrayList<Integer> umAntigeno;
+    private ArrayList umAntigeno;
 
     public Antigeno() {
-        umAntigeno = new ArrayList<>(121);
+        umAntigeno = new ArrayList(121);
         this.addLine(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
         this.addLine(0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0);
         this.addLine(0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0);
@@ -49,12 +49,13 @@ class Antigeno {
         }
         return ret;
     }
+    // getters e setters
 
-    public ArrayList<Integer> getUmAntigeno() {
+    public ArrayList getUmAntigeno() {
         return umAntigeno;
     }
 
-    public void setUmAntigeno(ArrayList<Integer> umAntigeno) {
+    public void setUmAntigeno(ArrayList umAntigeno) {
         this.umAntigeno = umAntigeno;
     }
 }
